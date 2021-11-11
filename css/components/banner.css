@@ -1,0 +1,46 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("/landing/images/cab\ sauv.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 200px;
+  padding-bottom: 100px;
+  color: white;
+  text-align: center;
+}
+
+/* .banner .container {
+  align-self: start;
+  margin: auto 300px;
+} */
+
+h1 {
+  font-size: 36px;
+  border-radius: 3px;
+  text-shadow: 0 0 100px 0 white;
+  /* box-shadow: 0 0 1px 0 white; */
+}
+
+.banner .container p {
+  margin-bottom: 45px;
+}
+
+.revinolution {
+  color: rgb(202, 25, 25);
+}
+
+.btn-order {
+  color: #fdefef;
+  border: 1px solid #fdefef;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  /* opacity: 0.6; */
+  transition: opacity 0.15s ease;
+}
+
+.btn-order:hover {
+  opacity: 1;
+  color: rgb(221, 45, 45);
+  border: 2px solid rgb(221, 45, 45);
+  font-weight: bold;
+}
